@@ -1,0 +1,61 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+.box{
+  height: 61.2px;
+  width: 61.2px;
+  /* border: 1px solid green; */
+  /* padding: 3px;
+  margin: 2px; */
+}
+.gamedisplay{
+  display: flex;
+  flex-wrap: wrap;
+  width: 612px;
+  height: 612px;
+  background-color:rgb(237, 131, 224);
+  background-image:url("snakes-and-ladders.jpg");
+  background-size: cover;
+  position:static;
+}
+.images{
+  height: 30px;
+  width: 30px;
+  /* background-image:url("rock.png"); */
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#throwDice{
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  margin-left: 100px;
+  border: 1px solid black;
+
+}
+#throwDice:hover{
+  border: 2px solid black;
+}
+body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  padding-left: 100px;
+  background-color: #9bb6bd;
+}
+.playerimg{
+  height: 40px;
+  width: 40px;
+}
+.msg{
+  background-color: cadetblue;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* height: 7vmin; */
+  padding: 20px;
+  margin: 70px;
+  font-weight: 500;
+}
